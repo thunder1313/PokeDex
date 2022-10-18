@@ -25,6 +25,7 @@
     font-family: PokeFont;
     font-size: 5rem;
     color: #FFCC00;
+    text-shadow: -2px -2px 0 #0A285F, 2px -2px 0 #0A285F, -2px 2px 0 #0A285F, 2px 2px 0 #0A285F;
   }
   
   label {
