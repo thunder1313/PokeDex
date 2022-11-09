@@ -1,6 +1,6 @@
 import { pokemons } from "./data.js";
 import { renderPokemons } from "./render.js"
-import { filterPokemons} from "./filter.js"
+import { filterPokemons } from "./filter.js"
 
 // call renderPokemons() from render.js to render all pokemons at start
 renderPokemons(pokemons);

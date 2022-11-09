@@ -1,6 +1,10 @@
 const pokemonsContainer = document.querySelector(".pokemons");
 
 export function renderPokemons(pokemons) {
+  // sort pokemons by id
+  pokemons = pokemons.sort((a, b) => {
+    return a.id < b.id ? -1 : 1;
+  })
   // delete all pokemon cards from container before rendering new ones
   while(pokemonsContainer.firstChild) {
     pokemonsContainer.removeChild(pokemonsContainer.firstChild);
